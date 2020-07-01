@@ -13,6 +13,8 @@
 		3C1065DE24A7E584004F5AC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C1065DD24A7E584004F5AC7 /* Assets.xcassets */; };
 		3C1065E124A7E584004F5AC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C1065E024A7E584004F5AC7 /* Preview Assets.xcassets */; };
 		3C1065E424A7E584004F5AC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C1065E224A7E584004F5AC7 /* LaunchScreen.storyboard */; };
+		3C1065ED24A7E863004F5AC7 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C1065EC24A7E863004F5AC7 /* Pacifico-Regular.ttf */; };
+		3C1065EF24A7F2D3004F5AC7 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1065EE24A7F2D3004F5AC7 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3C1065E024A7E584004F5AC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3C1065E324A7E584004F5AC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C1065E524A7E584004F5AC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C1065EC24A7E863004F5AC7 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		3C1065EE24A7F2D3004F5AC7 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		3C1065D624A7E580004F5AC7 /* BorisCard */ = {
 			isa = PBXGroup;
 			children = (
+				3C1065EE24A7F2D3004F5AC7 /* InfoView.swift */,
+				3C1065EB24A7E849004F5AC7 /* Fonts */,
 				3C1065D724A7E580004F5AC7 /* AppDelegate.swift */,
 				3C1065D924A7E580004F5AC7 /* SceneDelegate.swift */,
 				3C1065DB24A7E580004F5AC7 /* ContentView.swift */,
@@ -73,6 +79,14 @@
 				3C1065E024A7E584004F5AC7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3C1065EB24A7E849004F5AC7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3C1065EC24A7E863004F5AC7 /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C1065E424A7E584004F5AC7 /* LaunchScreen.storyboard in Resources */,
+				3C1065ED24A7E863004F5AC7 /* Pacifico-Regular.ttf in Resources */,
 				3C1065E124A7E584004F5AC7 /* Preview Assets.xcassets in Resources */,
 				3C1065DE24A7E584004F5AC7 /* Assets.xcassets in Resources */,
 			);
@@ -146,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C1065EF24A7F2D3004F5AC7 /* InfoView.swift in Sources */,
 				3C1065D824A7E580004F5AC7 /* AppDelegate.swift in Sources */,
 				3C1065DA24A7E580004F5AC7 /* SceneDelegate.swift in Sources */,
 				3C1065DC24A7E580004F5AC7 /* ContentView.swift in Sources */,
